@@ -1,0 +1,105 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f4f6f9;
+}
+
+.formBox{
+
+width:400px;
+margin:auto;
+margin-top:50px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0px 0px 10px gray;
+
+}
+
+h2{
+text-align:center;
+color:#007BFF;
+}
+
+input{
+
+width:100%;
+padding:10px;
+margin-top:10px;
+margin-bottom:15px;
+
+}
+
+button{
+
+width:100%;
+padding:10px;
+background:orange;
+color:white;
+border:none;
+border-radius:5px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="formBox">
+
+<h2>Edit Movie</h2>
+
+<form action="/movies/update" method="post">
+
+<input type="hidden"
+name="id"
+th:value="${movie.id}">
+
+Title
+
+<input type="text"
+name="title"
+th:value="${movie.title}">
+
+Genre
+
+<input type="text"
+name="genre"
+th:value="${movie.genre}">
+
+Director
+
+<input type="text"
+name="director"
+th:value="${movie.director}">
+
+Release Year
+
+<input type="number"
+name="releaseYear"
+th:value="${movie.releaseYear}">
+
+Rating
+
+<input type="text"
+name="rating"
+th:value="${movie.rating}">
+
+<button type="submit">
+Update Movie
+</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
