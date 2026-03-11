@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/Learning/SDET-ADVANCE-JAVA/springRest"/>
 			<item value="/Users/Learning/SDET-ADVANCE-JAVA/Person-and-Passport-Bidirectional-One-to-One-Mapping/src/main/java/com/capgemini/Person_and_Passport_Bidirectional_One_to_One_Mapping/Person.java"/>
 			<item value="/Users/Learning/SDET-ADVANCE-JAVA/Library_Book_Inventory_Management_System"/>
 			<item value="/Users/Learning/SDET-ADVANCE-JAVA/hibernatedemo1/src/main/java/com/capgemini/hibernate/hibernatedemo1/App.java"/>
@@ -31,35 +32,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.capgemini.springMVC_maven"/>
-			<item value="com.capgemini"/>
-			<item value="com.capgemini.springMVC_mevan"/>
-			<item value="com.capgemini.Department_and_student_Bidirectional_manyToOne"/>
-			<item value="com.capgemini.Person_and_Passport_Bidirectional_One_to_One_Mapping"/>
-			<item value="com.capgemini.Employee_and_Locker_Unidirectional_One_to_One_Mapping"/>
-			<item value="com.capgemini.HibernateOnetoOne.HibernateOnetoOne"/>
-			<item value="com.capgemini.hibernate.Email_management_system"/>
-			<item value="com.capgemini.hibernate.Library_Book_Inventory_Management_System"/>
-			<item value="com.capgemini.hibernate.HibernateDemo"/>
-			<item value="com.capgemini.hibernate"/>
-			<item value="com.capgemini.hibernate.hibernatedemo1"/>
 		</list>
 		<list key="groupId">
-			<item value="com.capgemini"/>
-			<item value="com.capgemini.HibernateOnetoOne"/>
-			<item value="com.capgemini.hibernate"/>
 		</list>
 		<list key="artifactId">
-			<item value="springMVC_maven"/>
-			<item value="springMVC_mevan"/>
-			<item value="Department-and-student-Bidirectional-manyToOne"/>
-			<item value="Person-and-Passport-Bidirectional-One-to-One-Mapping"/>
-			<item value="Employee-and-Locker-Unidirectional-One-to-One-Mapping"/>
-			<item value="HibernateOnetoOne"/>
-			<item value="Email-management-system"/>
-			<item value="Library_Book_Inventory_Management_System"/>
-			<item value="HibernateDemo"/>
-			<item value="hibernatedemo1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
